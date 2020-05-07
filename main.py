@@ -47,3 +47,5 @@ model.fit(X, Y,
         batch_size=32, 
         validation_split=0.1,
         callbacks=[tensorboard])
+
+model.save('Dog-Cat-CNN.model')
